@@ -399,6 +399,14 @@
   width: 100%;
   height: 100lvh;
   clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  filter: url("#flt_tag");
+}
+
+.flt_svg {
+  visibility: hidden;
+  position: absolute;
+  width: 0px;
+  height: 0px;
 }
 
 .project-bg {
